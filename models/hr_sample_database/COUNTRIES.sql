@@ -1,4 +1,5 @@
 
-    SELECT *
-    FROM DBT_snowflake.hr_sample_database.COUNTRIES.sql
+-- models/hr_sample_database/countries.sql
 
+SELECT *
+FROM hr_sample_database.countries;
