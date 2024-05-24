@@ -1,5 +1,5 @@
-create  view HR_SAMPLE_DATABASE.dbt_snowflake.COUNTRIES
+create or replace view HR_SAMPLE_DATABASE.dbt_saiprudhvi.COUNTRIES
 as (
     SELECT *
-    FROM hr_sample_database.countries
+    FROM DBT_snowflake.hr_sample_database.countries
 );
