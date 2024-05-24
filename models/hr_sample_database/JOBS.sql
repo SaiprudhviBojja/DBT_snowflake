@@ -1,5 +1,4 @@
-create or replace view HR_SAMPLE_DATABASE.dbt_sprudhvi.JOBS
-as (
+
     SELECT *
-    FROM hr_sample_database.jobs
-);
+    FROM DBT_snowflake.hr_sample_database.jobs
+
