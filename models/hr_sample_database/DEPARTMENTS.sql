@@ -1,5 +1,4 @@
-create or replace view HR_SAMPLE_DATABASE.dbt_sprudhvi.DEPARTMENTS
-as (
-    SELECT *
-    FROM hr_sample_database.departments
-);
+-- models/hr_sample_database/departments.sql
+
+SELECT *
+FROM hr_sample_database.departments;

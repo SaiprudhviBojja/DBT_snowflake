@@ -1,5 +1,5 @@
-create or replace view HR_SAMPLE_DATABASE.dbt_sprudhvi.DEPENDENTS
-as (
-    SELECT *
-    FROM hr_sample_database.dependents
-);
+-- models/hr_sample_database/dependents.sql
+
+SELECT *
+FROM hr_sample_database.dependents;
+

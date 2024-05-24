@@ -1,4 +1,4 @@
+-- models/hr_sample_database/jobs.sql
 
-    SELECT *
-    FROM DBT_snowflake.hr_sample_database.jobs
-
+SELECT *
+FROM hr_sample_database.jobs;
