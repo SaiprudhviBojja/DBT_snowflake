@@ -1,4 +1,8 @@
 -- models/hr_sample_database/employees.sql
 
-SELECT *
-FROM hr_sample_database.employees;
+create or replace view HR_SAMPLE_DATABASE.dbt_sprudhvi.EMPLOYEES
+as (
+    SELECT *
+    FROM hr_sample_database.public.tables..employees
+);
+
