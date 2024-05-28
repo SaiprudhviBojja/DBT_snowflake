@@ -1,10 +1,8 @@
 
-  create or replace   view HR_SAMPLE_DATABASE.dbt_sprudhvi_PUBLIC.DEPARTMENTS
+  create or replace   view HR_SAMPLE_DATABASE.dbt_sprudhvi.DEPARTMENTS
   
    as (
-    
-
-SELECT *
+    SELECT *
 FROM hr_sample_database.departmens;
   );
 

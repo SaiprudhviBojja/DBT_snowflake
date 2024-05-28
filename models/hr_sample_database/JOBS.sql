@@ -1,4 +1,4 @@
 
+    SELECT *
+    FROM hr_sample_database.jobs
 
-SELECT *
-FROM hr_sample_database.jobs;

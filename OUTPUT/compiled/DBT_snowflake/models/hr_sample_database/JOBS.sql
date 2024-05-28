@@ -1,4 +1,2 @@
-
-
 SELECT *
-FROM hr_sample_database.jobs;
+    FROM hr_sample_database.jobs
