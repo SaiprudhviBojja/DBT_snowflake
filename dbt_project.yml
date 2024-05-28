@@ -1,26 +1,12 @@
-name: 'snowflake_workshop'
-version: '1.0.0'
-config-version: 2
+name: 'DBT_snowflake'
+version: '1.0'
+profile: 'DBT_snowflake_p1'
 
-profile: 'default'
-
-source-paths: ["models"]
-analysis-paths: ["analysis"]
-test-paths: ["tests"]
-seed-paths: ["seeds"]
-macro-paths: ["macros"]
-snapshot-paths: ["snapshots"]
-
-target-path: "target"  
-clean-targets:         
-    - "target"
-    - "dbt_modules"
+# Configuring where dbt will look for different types of files
+source-paths: ["models/hr_sample_database"]
+target-path: "OUTPUT"
+clean-targets: ["OUTPUT"]
 
 models:
-  week-2:
-    staging:
-      materialized: view
-      snowflake_warehouse: pc_dbt_wh
-    marts:
-      materialized: table
-      snowflake_warehouse: pc_dbt_wh_large
+  your_project_name: 
+    materialized: view
