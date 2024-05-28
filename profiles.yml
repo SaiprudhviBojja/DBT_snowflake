@@ -9,6 +9,6 @@ your_profile_name: DBT_snowflake_p1
       role: ACCOUNT_ADMIN
       database: HR_SAMPLE_DATABASE
       warehouse: pc_dbt_wh_large
-      schema: PUBLIC
+      schema: DBT_SPRUDHVI
       threads: 1
       client_session_keep_alive: False

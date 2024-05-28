@@ -4,10 +4,10 @@ profile: 'DBT_snowflake_p1'
 
 # Configuring where dbt will look for different types of files
 source-paths: ["models/hr_sample_database"]
-target-path: "OUTPUT"
-clean-targets: ["OUTPUT"]
+target-path: "target"
+clean-targets: ["target"]
 
 models:
   your_project_name: 
-    schema: 'PUBLIC'
+    schema: 'DBT_SPRUDHVI'
     materialized: view
