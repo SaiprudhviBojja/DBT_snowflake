@@ -6,7 +6,7 @@ your_profile_name: DBT_snowflake_p1
       account: LK32610
       user: SAIPRUDHVI9127
       password: zicdus-fUwmog-cuqse2
-      role: ACCOUNT_ADMIN
+      role: PC_DBT_ROLE
       database: HR_SAMPLE_DATABASE
       warehouse: pc_dbt_wh_large
       schema: DBT_SPRUDHVI
