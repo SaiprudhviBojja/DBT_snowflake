@@ -9,4 +9,5 @@ clean-targets: ["OUTPUT"]
 
 models:
   your_project_name: 
+    schema: 'PUBLIC'
     materialized: view
