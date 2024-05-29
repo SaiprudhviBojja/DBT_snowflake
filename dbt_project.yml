@@ -10,4 +10,5 @@ clean-targets: ["target"]
 models:
   your_project_name: 
     schema: 'DBT_SPRUDHVI'
+    role: 'PC_DBT_ROLE'
     materialized: Table
