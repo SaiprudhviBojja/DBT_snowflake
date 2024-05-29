@@ -10,4 +10,4 @@ clean-targets: ["target"]
 models:
   your_project_name: 
     schema: 'DBT_SPRUDHVI'
-    materialized: view
+    materialized: Table

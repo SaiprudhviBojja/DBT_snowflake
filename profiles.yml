@@ -4,7 +4,7 @@ your_profile_name: DBT_snowflake_p1
     dev:
       type: snowflake
       account: LK32610
-      user: SAIPRUDHVI9127
+      user: saiprudhvi9127
       password: zicdus-fUwmog-cuqse2
       role: PC_DBT_ROLE
       database: HR_SAMPLE_DATABASE
